@@ -15,7 +15,7 @@ function tabs(
 		});
 
 		tabs.forEach((item) => {
-			item.classList.remove();
+			item.classList.remove(activeClass);
 		});
 	}
 
